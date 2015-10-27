@@ -90,7 +90,10 @@ searchController   搜索
 1、现在对于COURSE_DATA的结构还严重依赖于源数据的结构，我并没有去写一个parser把源数据转换为某种标准结构。换句话说，如果教务处给的CSV格式有变化，我这边相对应的服务层也要变化，不过这个问题不太严重。
 
 
-2、在IE甚至EDGE下，angular的渲染性能极差，导致搜索结果过多时会出现明显的卡顿甚至假死。搜索这一块未来会考虑移到服务器端用node写（现有的方法都是可以在node里复用的）
+2、在IE甚至EDGE下，angular的渲染性能极差，导致搜索结果过多时会出现明显的卡顿甚至假死。搜索这一块未来会考虑移到服务器端用node写（现有的方法都是可以在node里复用的）。
+
+3、我没有使用诸如Webpack、Browserify之类的打包工具，导致没有项目构建这个过程，在开发中有些不便（代码都是压缩后的，很难溯源）。
+
   [1]: https://github.com/starkwang/Simage
   [2]: https://github.com/starkwang/alphabetJS
   [3]: https://github.com/starkwang/Blackboard
