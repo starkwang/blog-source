@@ -4,7 +4,7 @@ tags:
 - 技术日记
 ---
 最近写复旦二手平台的时候开始尝试用一直推崇了很久的组件化。经过一番抉择之后选择了 webpack + angular 的组合。所以在这里分享一下具体的实践流程。
-
+<!-- more -->
 -------
 #Webpack
 Webpack是目前比较流行的前端打包工具，它同时支持AMD、CMD两种模块写法，也原生支持npm或者bower安装的模块。它还能给css、scss、less、coffeescript、es6、图片、html以及诸如jade、ejs的模板打包。
