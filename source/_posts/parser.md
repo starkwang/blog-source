@@ -10,7 +10,6 @@ tags:
 [点这里看DEMO](http://blog.starkwang.com/DOM-Drawer/)
 
 源码在[github · starkwang/DOM-Drawer](https://github.com/starkwang/DOM-Drawer)，使用webpack打了个包。绘图部分依赖了百度开源的 [ECharts](http://echarts.baidu.com/)，核心功能的实现只有100行代码。
-
 <!-- more -->
 ------
 #核心代码解读
